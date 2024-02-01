@@ -13,6 +13,9 @@ var VALOR_CARRINHO = 0;
 var VALOR_ENTREGA = 3;
 var CELULAR_EMPRESA = '557398273705';
 
+
+
+
 //EVENTOS DO CARDÁPIO
 cardapio.eventos = {
   init: () => {
@@ -338,6 +341,8 @@ cardapio.metodos = {
         $('#lblSubTotal').text(`R$ ${VALOR_CARRINHO.toFixed(2).replace('.', ',')}`);
         $('#lblValorEntrega').text(`+ R$ ${VALOR_ENTREGA.toFixed(2).replace('.', ',')}`)
         $('#lblValorTotal').text(`R$ ${(VALOR_CARRINHO + VALOR_ENTREGA).toFixed(2).replace('.', ',')}`)
+        
+
 
       }
 
@@ -507,6 +512,9 @@ cardapio.metodos = {
 
     $("#cidadeEndereco").html(`${MEU_ENDERECO.cidade}-${MEU_ENDERECO.uf} / ${MEU_ENDERECO.cep} ${MEU_ENDERECO.complemento}`);
 
+    
+
+
     cardapio.metodos.finalizarPedido()
 
   },
@@ -521,14 +529,16 @@ cardapio.metodos = {
 
       var texto = "Olá! gostaria de fazer um pedido: ";
 
-      texto += '\n*Itens do pedido: *\n\n\${itens}';
+      texto += `\n*Itens do pedido: *\n\n\${itens}`;
 
-      texto += `\n*\nEndereço de entrega: *`;
+      texto += `\n\n*Endereço de entrega: *`;     
 
       texto += `\n${MEU_ENDERECO.endereco}, ${MEU_ENDERECO.numero}, ${MEU_ENDERECO.bairro}`;
       texto += `\n${MEU_ENDERECO.cidade}-${MEU_ENDERECO.uf} / ${MEU_ENDERECO.cep} ${MEU_ENDERECO.complemento}`
 
+
       texto += `\n\n*Total (com entrega): R$ ${(VALOR_CARRINHO + VALOR_ENTREGA).toFixed(2).replace('.', ',')}*`;
+      texto += '\n\nMétodo de pagamento: ' +  $('#txt-modoPagamento').val()
 
       var itens = '';
 

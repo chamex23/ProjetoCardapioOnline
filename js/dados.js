@@ -4,42 +4,28 @@ var MENU = {
             "id": "espetoCarne",
             "img": "./img/Espetinhos/carne.jpg",
             "name": "CARNE",
-            "dsc": "Espeto de carne",
+            "dsc": "...",
             "price": 7
         },
         {
             "id": "espetoFrango",
             "img": "./img/Espetinhos/frango.jpg",
             "name": "FRANGO",
-            "dsc": "Espeto de frango",
+            "dsc": "...",
             "price": 7
         },
         {
             "id": "espetoCoxinhaAsa",
             "img": "./img/Espetinhos/coxinhadaasa.jpg",
             "name": "COXINHA DA ASA",
-            "dsc": "Espeto da coxa da asa",
+            "dsc": "...",
             "price": 7
         },
         {
             "id": "espetoCalabresa",
             "img": "./img/Espetinhos/calabresa.jpeg",
-            "name": "CALABRESA",
-            "dsc": "Espeto de calabresa",
-            "price": 7
-        },
-        {
-            "id": "espetoDefumado",
-            "img": "./img/cardapio/churrasco/whole-texas-smoked-brisket.a5558a25381e271408e197936e7985d8.jpg",
-            "name": "ESPETO DEFUMADO",
-            "dsc": "Espeto defumado",
-            "price": 7
-        },
-        {
-            "id": "espetoApimentado",
-            "img": "./img/cardapio/churrasco/mini-trinity-bbq-combo-brisket-ribs-and-links.245582f593bf64b23b57dfca2be18cfd.jpg",
-            "name": "ESPETO APIMENTADO",
-            "dsc": "Espeto apimentado",
+            "name": "CALABRESA DEFUMADA",
+            "dsc": "...",
             "price": 7
         },
         {
@@ -47,7 +33,7 @@ var MENU = {
             "img": "./img/Espetinhos/completo.jpg",
             "name": "COMPLETO",
             "dsc": "Espeto completo, com farofa e vinagrete",
-            "price": 10
+            "price": 12
         },
        
     ],
@@ -56,57 +42,57 @@ var MENU = {
             "id": "lenha",
             "img": "./img/cardapio/burguers/Gramercy-Tavern-Burger-and-Kielbasa-Kit-6.4.21-72ppi-1x1-15.jpg",
             "name": "LENHA",
-            "dsc": "Pão, Carne artesanal 100g, Queijo, Salada, Tomate",
+            "dsc": "Pão, Carne artesanal 100g, Queijo, Salada",
             "price": 12
         },
         {
             "id": "carvao",
             "img": "./img/cardapio/burguers/shake-shack-shackburger-8-pack.973a5e26836ea86d7e86a327becea2b0.jpg",
             "name": "CARVÃO",
-            "dsc": "Pão, Carne artesanal 100g, Frango, Queijo, Salada, Tomate",
+            "dsc": "Pão, Carne artesanal 100g, Frango, Queijo, Salada",
             "price": 14
         },
         {
             "id": "fumaca",
             "img": "./img/cardapio/burguers/gotts-complete-cheeseburger-kit-for-4.7bdc74104b193427b3fe6eae39e05b5e.jpg",
             "name": "FUMAÇA",
-            "dsc": "Pão, Carne artesanal 100g, Bacon, Queijo, Cebola caramelizada, Salada, Tomate",
-            "price": 15
+            "dsc": "Pão, Carne artesanal 100g, Bacon, Queijo, Cebola caramelizada, Salada",
+            "price": 16
         },
         {
             "id": "faisca",
             "img": "./img/cardapio/burguers/le-big-matt-kit-for-6.1ddae6e382bb3218eeb0fd5247de115a.jpg",
             "name": "FAÍSCA",
-            "dsc": "Pão, Carne artesanal 100g, Calabresa, Queijo, Salada, Tomate, Molho Barbecue",
-            "price": 15
+            "dsc": "Pão, Carne artesanal 100g, Calabresa, Queijo, Salada, Molho Barbecue",
+            "price": 16
         },
         {
             "id": "brasa",
             "img": "./img/cardapio/burguers/shake-shack-shackburger-16-pack.316f8b09144db65931ea29e34869287a.jpg",
             "name": "BRASA",
-            "dsc": "Pão, Carne artesanal 100g, Frango, Calabresa, Queijo, Barbecue, Salada, Tomate",
-            "price": 17
+            "dsc": "Pão, Carne artesanal 100g, Frango, Calabresa, Queijo, Barbecue, Salada",
+            "price": 18
         },
         {
             "id": "fogo",
             "img": "./img/cardapio/burguers/usda-prime-burgers-pack-of-18-8oz-each.274c67f15aa1c0b210dbf51801706670.jpg",
             "name": "FOGO",
-            "dsc": "Pão, Carne artesanal 100g, Bacon, Calabresa, Queijo, Salada, Tomate, Cebola caramelizada, Molho picante",
-            "price": 18
+            "dsc": "Pão, Carne artesanal 100g, Bacon, Calabresa, Queijo, Salada, Cebola caramelizada, Molho picante",
+            "price": 20
         },
         {
             "id": "braseiro",
             "img": "./img/cardapio/burguers/handf-double-stack-burger-kit-for-4.4ee9f54b1d6087e9996335f07c13e5cd.jpg",
             "name": "BRASEIRO",
-            "dsc": "Pão, Carne artesanal 100g, Frango, Bacon, Calabresa, Queijo, Tomate, Cebola caramelizada, Molho picante",
-            "price": 20
+            "dsc": "Pão, Carne artesanal 100g, Frango, Bacon, Calabresa, Queijo, Cebola caramelizada, Molho picante",
+            "price": 22
         },
         {
             "id": "brasao",
             "img": "./img/cardapio/burguers/the-burger-bash-package.bd9d12d031865940bbe5faf15f1a62f8.jpg",
             "name": "BRASÃO",
-            "dsc": "Pão, 2x Carne artesanal 100g, Frango, Bacon, Calabresa, 2x Queijo, Molho Barbecue, Tomate, Salada",
-            "price": 25
+            "dsc": "Pão, 2x Carne artesanal 100g, Frango, Bacon, Calabresa, 2x Queijo, Molho Barbecue, Salada",
+            "price": 30
         },
       
     ],
@@ -181,28 +167,28 @@ var MENU = {
             "img": "./img/Bebidas/Cocacola1lt.jpg",
             "name": "COCA-COLA 1LT",
             "dsc": "...",
-            "price": 7
+            "price": 8
         },
         {
             "id": "guaranaLitro",
             "img": "./img/Bebidas/Guaranalt.jpg",
             "name": "GUARANÁ 1LT",
             "dsc": "...",
-            "price": 7
+            "price": 8
         },
         {
             "id": "cocacolaLata",
             "img": "./img/Bebidas/cocacolalata.jpg",
             "name": "COCA-COLA LATA",
             "dsc": "...",
-            "price": 4
+            "price": 5
         },
         {
             "id": "guaranaLata",
             "img": "./img/Bebidas/guaranalata.png",
             "name": "GUARANÁ LATA",
             "dsc": "...",
-            "price": 4
+            "price": 5
         },
         {
             "id": "bebidasAgua",

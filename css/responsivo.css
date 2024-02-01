@@ -108,7 +108,6 @@
         padding-left: 100px;
         justify-content: center;
         align-items: start;
-        
     }
 
     .card-item .img-produto img{
@@ -117,15 +116,22 @@
 
     .title-produto{
         margin-top: 0px!important;
-        height: 30px!important;
+        height: px!important;
         width: 100%;
-        text-align: left!important;
+        text-align: center!important;
+        
     }
 
     .price-produto{
         margin-bottom: 0px!important;
         margin-top: 0px;
         font-size: 22px;
+        width: 100%;
+        text-align: center!important;
+    }
+
+    .price-produto b{
+        text-align: center!important;
     }
 
     .banner .container .row a{
@@ -135,6 +141,11 @@
     .card-item .add-carrinho{
         margin-top: 5px;
         margin-bottom: 5px;
+        margin-left: 89px;
+    }
+
+    .card-item .add-carrinho .btn-add{
+        margin-top: 10px
     }
 
     #itensCardapio .mb-5{
@@ -215,4 +226,8 @@
     }
 
 
+    .descricao-produto b{
+        
+        text-align: center;
+    }
 }
